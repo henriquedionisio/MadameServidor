@@ -1,7 +1,7 @@
 ﻿const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const porta = 3000; //porta padrão
+var PORT = process.env.PORT || 5000;
 const sql = require('mssql');
 const conexaoStr = "Server=den1.mssql8.gear.host;Database=madamex;User Id=madamex;Password=Bo22w8Xa-!l8;";
 
@@ -28,7 +28,7 @@ rota.get('/', (requisicao, resposta) => resposta.json({ mensagem: 'Funcionando!'
 app.use('/', rota);
 	
 //inicia servidor
-app.listen(porta);
+app.listen(PORT);
 console.log('API Funcionando!');
 
 function execSQL(sql, resposta) {
