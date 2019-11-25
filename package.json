@@ -1,25 +1,4 @@
 
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@heenriq79 
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-1
-00heenriq79/MadameServidor
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-MadameServidor/package-lock.json
-@heenriq79 heenriq79 Add files via upload
-fc3a194 2 hours ago
-1141 lines (1141 sloc)  43.6 KB
-  
 {
   "requires": true,
   "lockfileVersion": 1,
@@ -1161,15 +1140,3 @@ fc3a194 2 hours ago
     }
   }
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
