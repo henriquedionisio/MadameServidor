@@ -93,3 +93,23 @@ rota.post('/Contas/:dados', (requisicao, resposta) =>
 })
 
 
+//PUTS---------------------------
+
+
+rota.put('/Contas/:dados', (requisicao, resposta) =>
+{
+    console.log('Entrou moreh');
+    var dados = requisicao.params.dados.toString();
+    var array = dados.split("-");
+    var nome = array[0];
+    var email = array[1];
+    var senha = array[2];
+    var divaFav = array[3];
+    console.log(nome + " " + email + " " + senha + " " + divaFav);
+
+    execSQL(`update Conta set nome='${nome}', senha='${senha}', divaFav='${divaFav}' where email='${email}'`, resposta);
+    resposta.end(resposta.json({ mensagem: 'Alterado!'})); 
+      
+})
+
+
