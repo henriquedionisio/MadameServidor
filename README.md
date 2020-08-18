@@ -1,3 +1,3 @@
 # MadameServidor
 
-Servidor hospedado no heroku para a utilização no aplicativo Madame X
+Servidor hospedado no Heroku para a utilização no aplicativo Madame X
